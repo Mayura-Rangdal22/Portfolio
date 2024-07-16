@@ -89,7 +89,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(53, 57, 57) 0%, rgb(3, 18, 20) 100% );
 }
 .navbar .max-width{
     display: flex;
@@ -108,11 +108,12 @@ section .title::after{
 }
 .navbar.sticky .logo a span{
     color: #fff;
-}
+} 
 */
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    text-align: center;
 }
 .navbar .menu li a{
     display: block;
@@ -123,7 +124,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #302d32;
+    color: #76c7c9;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -168,13 +169,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-/*    background: url("images/banner.jpg") no-repeat center;*/
-/*
-    background-color: background-color: #FAD961;
-    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
-*/
-    
-    background-image: radial-gradient( circle farthest-corner at 10% 30%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 95% );
+    background-image: radial-gradient( circle farthest-corner at 20% 40%,  rgb(53, 57, 57) 0%, rgb(3, 18, 20) 100% );
+    /*background-color: #41a5f7d0;*/
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -203,7 +199,8 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #322d31;
+    color: #97c6c8;
+    text-shadow: #c0c0c0;
     font-weight: 500;
 }
 .home .home-content a{
@@ -215,7 +212,7 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #e208d4;
+    border: 2px solid #d2d2d2;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
@@ -252,7 +249,7 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #ee00b7;
+    background: #486761;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -263,8 +260,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #111;
-    background: none;
+    color: #cccccc;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(53, 57, 57) 0%, rgb(3, 18, 20) 100% );
 }
 
 
@@ -284,7 +281,7 @@ section .title::after{
 }
 .about .education-content .right a{
     display: inline-block;
-    background: #ee00b7;
+    background: #4a8076;
     color: #fff;
     font-size: 25px;
     font-weight: 500;
@@ -295,56 +292,11 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-/* highlights section styling */
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-   
-}
-
-.gallery-item {
-    margin: 30px;
-    overflow: hidden;
-    border-radius: 8px;
-    margin-top: 200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.gallery-item img {
-    width: 300px; /* Fixed width */
-    height: 300px; /* Fixed height */
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.gallery-item img:hover {
-    transform: scale(1.1);
-}
-/*.about .education-content .right a{
-    display: inline-block;
-    background: #ee00b7;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 10px 30px;
-   
-    border-radius: 6px;
-    border: 2px solid #e5e5e5;
-    transition: all 0.3s ease;
-}
-*/
-
 /* services section styling */
 .services, .projects, .blogs{
     color:#fff;
     /*background: #111;*/
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(53, 57, 57) 0%, rgb(3, 18, 20) 100% );
 }
 .services .title::before,
 .projects .title::before{
@@ -358,7 +310,7 @@ section .title::after{
 .services .serv-content .card{
 
     width: calc(25% - 10px);
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(57, 0, 48) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(53, 57, 57) 0%, rgb(15, 62, 67) 100%);
     /*background: #bcbcbc;*/    
     text-align: center;
     border-radius: 6px;
@@ -369,7 +321,7 @@ section .title::after{
 }
 .services .serv-content .card:hover{
     /*background: #ff7aeb;*/
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(30, 141, 153) 10%, rgb(20, 52, 44) 90% );
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -416,11 +368,11 @@ section .title::after{
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #ee00b7;
+    border: 2px solid #c0c0c0;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #ee00b7;
+    color: #4a8076;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -448,7 +400,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(57, 0, 48) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(123, 124, 124) 0%, rgb(15, 62, 67) 100%);
     /*background: #8f14dc;*/
 }
 .skills-content .right .html::before{
@@ -475,7 +427,7 @@ section .title::after{
     content: "I have worked on";
 }
 .projects .carousel .card{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(57, 0, 48) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(53, 57, 57) 0%, rgb(15, 62, 67) 100%);
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -484,7 +436,7 @@ section .title::after{
     color: #e5e5e5;
 }
 .projects .carousel .card:hover{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(30, 141, 153) 10%, rgb(20, 52, 44) 90% );
 }
 .projects .carousel .card .box{
     display: flex;
@@ -522,7 +474,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #ee00b7!important;
+    border: 2px solid #d1d0d1!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -538,7 +490,7 @@ section .title::after{
     content: "I have published";
 }
 .blogs .carousel .card{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(57, 0, 48) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(53, 57, 57) 0%, rgb(15, 62, 67) 100%);
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -547,7 +499,7 @@ section .title::after{
     color: #e5e5e5;
 }
 .blogs .carousel .card:hover{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 90% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(30, 141, 153) 10%, rgb(20, 52, 44) 90% );
 }
 .blogs .carousel .card .box{
     display: flex;
@@ -585,7 +537,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid #ee00b7!important;
+    border: 2px solid #dbdadb!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -685,23 +637,23 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: #ee00b7;
+  background: #486761;
   border: 2px solid #302d32;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: #302d32;
-  background: none;
+  color: #e4e4e4;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgb(53, 57, 57) 0%, rgb(3, 18, 20) 100% );
 }
 /* footer section styling */
 footer{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(200, 6, 142) 0%, rgb(214, 214, 214) 90% );         
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(53, 57, 57) 0%, rgb(3, 18, 20) 100% );         
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
 footer span a{
-    color: #302d32;
+    color: #dfdfdf;
     text-decoration: none;
 }
 footer span a:hover{
